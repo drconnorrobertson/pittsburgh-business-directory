@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pittsburgh Business Directory</title>
+    <link>https://pittsburghbusinessdirectory.com/</link>
+    <description>Editorial profiles of Pittsburgh's best businesses and entrepreneurs</description>
+    <language>en-us</language>
+    <pubDate>Fri, 02 May 2026 12:00:00 GMT</pubDate>
+    <lastBuildDate>Fri, 02 May 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://pittsburghbusinessdirectory.com/feed.xml" rel="self" type="application/rss+xml" />
+
+    <!-- Featured Business Profiles -->
+    <item>
+      <title>Alphabet City Coffee: Pittsburgh's Premier Specialty Coffee Roaster</title>
+      <link>https://pittsburghbusinessdirectory.com/business/alphabet-city-coffee/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/business/alphabet-city-coffee/</guid>
+      <pubDate>Fri, 02 May 2026 08:00:00 GMT</pubDate>
+      <category>Food & Drink</category>
+      <description>Award-winning specialty coffee roaster and cafe in Lawrenceville, serving single-origin espresso and pour-over preparations.</description>
+      <content:encoded><![CDATA[<p>Award-winning specialty coffee roaster and cafe in Lawrenceville, serving single-origin espresso and pour-over preparations.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Andy Warhol Museum: World-Class Art Institution in Pittsburgh</title>
+      <link>https://pittsburghbusinessdirectory.com/business/andy-warhol-museum/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/business/andy-warhol-museum/</guid>
+      <pubDate>Thu, 01 May 2026 10:30:00 GMT</pubDate>
+      <category>Arts & Culture</category>
+      <description>World-renowned museum dedicated to the life and work of Andy Warhol, featuring the largest collection of Warhol's artwork.</description>
+      <content:encoded><![CDATA[<p>World-renowned museum dedicated to the life and work of Andy Warhol, featuring the largest collection of Warhol's artwork.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Amazing Yoga Pittsburgh: Community Wellness and Yoga Studio</title>
+      <link>https://pittsburghbusinessdirectory.com/business/amazing-yoga-pittsburgh/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/business/amazing-yoga-pittsburgh/</guid>
+      <pubDate>Wed, 30 Apr 2026 14:15:00 GMT</pubDate>
+      <category>Health & Wellness</category>
+      <description>Community yoga studio offering classes for all levels, from beginner to advanced, with certified instructors and welcoming atmosphere.</description>
+      <content:encoded><![CDATA[<p>Community yoga studio offering classes for all levels, from beginner to advanced, with certified instructors and welcoming atmosphere.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Aurora Innovation: Pittsburgh Technology Consulting</title>
+      <link>https://pittsburghbusinessdirectory.com/business/aurora-innovation/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/business/aurora-innovation/</guid>
+      <pubDate>Tue, 29 Apr 2026 09:45:00 GMT</pubDate>
+      <category>Technology</category>
+      <description>Technology consulting firm specializing in digital transformation and enterprise software solutions for mid-market companies.</description>
+      <content:encoded><![CDATA[<p>Technology consulting firm specializing in digital transformation and enterprise software solutions for mid-market companies.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Apteka: Eastern European Restaurant in Strip District</title>
+      <link>https://pittsburghbusinessdirectory.com/business/apteka/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/business/apteka/</guid>
+      <pubDate>Mon, 28 Apr 2026 11:20:00 GMT</pubDate>
+      <category>Restaurants</category>
+      <description>Contemporary Eastern European restaurant celebrating Polish and regional European cuisine with locally-sourced ingredients.</description>
+      <content:encoded><![CDATA[<p>Contemporary Eastern European restaurant celebrating Polish and regional European cuisine with locally-sourced ingredients.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Arcade Comedy Theater: South Side Entertainment Venue</title>
+      <link>https://pittsburghbusinessdirectory.com/business/arcade-comedy-theater/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/business/arcade-comedy-theater/</guid>
+      <pubDate>Sun, 27 Apr 2026 19:00:00 GMT</pubDate>
+      <category>Arts & Culture</category>
+      <description>Independent comedy venue hosting stand-up, improv, and sketch shows in a historic building in the South Side.</description>
+      <content:encoded><![CDATA[<p>Independent comedy venue hosting stand-up, improv, and sketch shows in a historic building in the South Side.</p>]]></content:encoded>
+    </item>
+
+    <!-- Blog Posts -->
+    <item>
+      <title>Best Restaurants in Pittsburgh 2026</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/best-restaurants-pittsburgh-2026/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/best-restaurants-pittsburgh-2026/</guid>
+      <pubDate>Fri, 02 May 2026 07:00:00 GMT</pubDate>
+      <category>Restaurants</category>
+      <description>Comprehensive guide to the best restaurants in Pittsburgh, featuring profiles of innovative chefs and dining establishments making an impact on the city's culinary scene.</description>
+      <content:encoded><![CDATA[<p>Comprehensive guide to the best restaurants in Pittsburgh, featuring profiles of innovative chefs and dining establishments making an impact on the city's culinary scene.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>The Pittsburgh Startup Scene: Innovation and Growth</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/pittsburgh-startup-scene/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/pittsburgh-startup-scene/</guid>
+      <pubDate>Thu, 25 Apr 2026 10:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <description>Analysis of Pittsburgh's growing startup ecosystem, funding trends, and emerging tech companies reshaping the city's economy.</description>
+      <content:encoded><![CDATA[<p>Analysis of Pittsburgh's growing startup ecosystem, funding trends, and emerging tech companies reshaping the city's economy.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best Coffee Shops in Pittsburgh</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/best-coffee-shops-pittsburgh/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/best-coffee-shops-pittsburgh/</guid>
+      <pubDate>Mon, 22 Apr 2026 08:30:00 GMT</pubDate>
+      <category>Food & Drink</category>
+      <description>Guide to Pittsburgh's specialty coffee roasters and cafes, featuring independent businesses serving specialty espresso drinks and pour-over coffee.</description>
+      <content:encoded><![CDATA[<p>Guide to Pittsburgh's specialty coffee roasters and cafes, featuring independent businesses serving specialty espresso drinks and pour-over coffee.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Pittsburgh Real Estate Developers Shaping the City's Future</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/pittsburgh-real-estate-developers/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/pittsburgh-real-estate-developers/</guid>
+      <pubDate>Fri, 19 Apr 2026 14:00:00 GMT</pubDate>
+      <category>Real Estate</category>
+      <description>Feature on Pittsburgh's leading real estate developers and their impact on neighborhood revitalization and urban development.</description>
+      <content:encoded><![CDATA[<p>Feature on Pittsburgh's leading real estate developers and their impact on neighborhood revitalization and urban development.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Women-Owned Businesses in Pittsburgh</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/women-owned-businesses-pittsburgh/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/women-owned-businesses-pittsburgh/</guid>
+      <pubDate>Wed, 16 Apr 2026 11:15:00 GMT</pubDate>
+      <category>Entrepreneurship</category>
+      <description>Spotlight on successful women entrepreneurs in Pittsburgh, celebrating their businesses and contributions to the city's economy.</description>
+      <content:encoded><![CDATA[<p>Spotlight on successful women entrepreneurs in Pittsburgh, celebrating their businesses and contributions to the city's economy.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Black-Owned Businesses in Pittsburgh</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/black-owned-businesses-pittsburgh/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/black-owned-businesses-pittsburgh/</guid>
+      <pubDate>Mon, 14 Apr 2026 09:00:00 GMT</pubDate>
+      <category>Entrepreneurship</category>
+      <description>Feature on Black entrepreneurs and business owners making a difference in Pittsburgh communities across various industries.</description>
+      <content:encoded><![CDATA[<p>Feature on Black entrepreneurs and business owners making a difference in Pittsburgh communities across various industries.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Pittsburgh Tech Companies Actively Hiring</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/pittsburgh-tech-companies-hiring/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/pittsburgh-tech-companies-hiring/</guid>
+      <pubDate>Fri, 11 Apr 2026 16:45:00 GMT</pubDate>
+      <category>Jobs</category>
+      <description>Guide to Pittsburgh tech companies and startups with current job openings across engineering, product, and business roles.</description>
+      <content:encoded><![CDATA[<p>Guide to Pittsburgh tech companies and startups with current job openings across engineering, product, and business roles.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best Contractors in Pittsburgh</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/best-contractors-pittsburgh/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/best-contractors-pittsburgh/</guid>
+      <pubDate>Tue, 08 Apr 2026 10:30:00 GMT</pubDate>
+      <category>Trades & Construction</category>
+      <description>Comprehensive guide to Pittsburgh's top contractors and tradespeople, featuring profiles of experienced professionals serving residential and commercial projects.</description>
+      <content:encoded><![CDATA[<p>Comprehensive guide to Pittsburgh's top contractors and tradespeople, featuring profiles of experienced professionals serving residential and commercial projects.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>New Businesses Opening in Pittsburgh 2026</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/new-businesses-pittsburgh-2026/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/new-businesses-pittsburgh-2026/</guid>
+      <pubDate>Fri, 05 Apr 2026 12:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>Coverage of new and recently opened businesses across Pittsburgh, highlighting entrepreneurs launching ventures in the growing city.</description>
+      <content:encoded><![CDATA[<p>Coverage of new and recently opened businesses across Pittsburgh, highlighting entrepreneurs launching ventures in the growing city.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Pittsburgh Business Awards 2026</title>
+      <link>https://pittsburghbusinessdirectory.com/blog/pittsburgh-business-awards-2026/</link>
+      <guid isPermaLink="true">https://pittsburghbusinessdirectory.com/blog/pittsburgh-business-awards-2026/</guid>
+      <pubDate>Mon, 01 Apr 2026 15:20:00 GMT</pubDate>
+      <category>Awards</category>
+      <description>Recognition of outstanding businesses, entrepreneurs, and community leaders receiving awards and accolades for their contributions to Pittsburgh.</description>
+      <content:encoded><![CDATA[<p>Recognition of outstanding businesses, entrepreneurs, and community leaders receiving awards and accolades for their contributions to Pittsburgh.</p>]]></content:encoded>
+    </item>
+
+  </channel>
+</rss>

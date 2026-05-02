@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pittsburgh Business Directory - Discover the Best Businesses in PGH</title>
+  <meta name="description" content="The Pittsburgh Business Directory features comprehensive profiles of the city's best businesses. From restaurants to real estate, technology to trades - discover Pittsburgh's entrepreneurial community." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Pittsburgh Business Directory" />
+  <meta property="og:description" content="Discover Pittsburgh's best businesses through editorial profiles and features." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://pittsburghbusinessdirectory.com/og-image.jpg" />
+  <link rel="canonical" href="https://pittsburghbusinessdirectory.com/" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Pittsburgh Business Directory",
+    "description": "Editorial directory of Pittsburgh's best businesses",
+    "url": "https://pittsburghbusinessdirectory.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://pittsburghbusinessdirectory.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --charcoal: #1a1a1a;
+      --gold: #C8A040;
+      --steel-gray: #444;
+      --light-gray: #f5f5f5;
+      --border-gray: #ddd;
+      --text-dark: #333;
+      --text-light: #666;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-dark);
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--charcoal);
+    }
+
+    /* Header & Navigation */
+    header {
+      background: var(--charcoal);
+      border-bottom: 3px solid var(--gold);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .logo-text {
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .logo-tagline {
+      color: #aaa;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--charcoal) 0%, var(--steel-gray) 100%);
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ddd;
+      margin-bottom: 40px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .search-box {
+      display: flex;
+      max-width: 500px;
+      margin: 0 auto;
+      gap: 10px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .search-box button {
+      padding: 15px 30px;
+      background: var(--gold);
+      border: none;
+      border-radius: 4px;
+      color: var(--charcoal);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .search-box button:hover {
+      background: #daa520;
+    }
+
+    /* Stats Section */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      background: var(--light-gray);
+      text-align: center;
+    }
+
+    .stat-item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .stat-item p {
+      color: var(--text-light);
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 8px;
+    }
+
+    /* Featured Businesses */
+    .featured-section {
+      padding: 80px 20px;
+    }
+
+    .featured-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+      color: var(--charcoal);
+      text-align: center;
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .business-card {
+      background: #fff;
+      border: 1px solid var(--border-gray);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .business-card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      border-color: var(--gold);
+    }
+
+    .business-card-header {
+      background: var(--charcoal);
+      color: #fff;
+      padding: 30px 20px;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .business-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .business-category {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--gold);
+    }
+
+    .business-card-body {
+      padding: 25px 20px;
+    }
+
+    .business-desc {
+      color: var(--text-light);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .business-location {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-bottom: 20px;
+    }
+
+    .read-more {
+      display: inline-block;
+      color: var(--gold);
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+
+    .read-more:hover {
+      color: var(--charcoal);
+    }
+
+    /* Categories Grid */
+    .categories-section {
+      padding: 80px 20px;
+      background: var(--light-gray);
+    }
+
+    .categories-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+      color: var(--charcoal);
+      text-align: center;
+    }
+
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .category-card {
+      background: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 8px;
+      border: 1px solid var(--border-gray);
+      transition: all 0.3s ease;
+    }
+
+    .category-card:hover {
+      background: var(--charcoal);
+      color: #fff;
+      border-color: var(--gold);
+    }
+
+    .category-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .category-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .category-card p {
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .category-card:hover p {
+      color: #ccc;
+    }
+
+    .category-card:hover h3 {
+      color: var(--gold);
+    }
+
+    /* Neighborhoods */
+    .neighborhoods-section {
+      padding: 80px 20px;
+    }
+
+    .neighborhoods-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+      color: var(--charcoal);
+      text-align: center;
+    }
+
+    .neighborhoods-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .neighborhood-link {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 6px;
+      border: 2px solid var(--border-gray);
+      color: var(--text-dark);
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .neighborhood-link:hover {
+      border-color: var(--gold);
+      background: var(--charcoal);
+      color: var(--gold);
+    }
+
+    /* CTA Section */
+    .cta-section {
+      background: var(--charcoal);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-section p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--charcoal);
+      padding: 15px 40px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: #daa520;
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer {
+      background: var(--charcoal);
+      color: #ccc;
+      padding: 40px 20px;
+      border-top: 1px solid var(--steel-gray);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--gold);
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .footer-section h3 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+    }
+
+    .footer-section li {
+      margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--steel-gray);
+      padding-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .header-inner {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 12px;
+      }
+
+      .featured-grid,
+      .categories-grid,
+      .neighborhoods-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-text">PGH BUSINESS</span>
+          <span class="logo-tagline">Editorial Directory</span>
+        </div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about/">About</a>
+          <a href="/category/restaurants/">Categories</a>
+          <a href="/neighborhood/lawrenceville/">Neighborhoods</a>
+          <a href="/blog/">Blog</a>
+          <a href="/submit/">Submit</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Discover Pittsburgh's Best Businesses</h1>
+      <p>In-depth editorial profiles of the city's most innovative and impactful entrepreneurs</p>
+      <div class="search-box">
+        <input type="text" placeholder="Search businesses, categories, neighborhoods..." />
+        <button>Search</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-item">
+      <h3>124+</h3>
+      <p>Businesses</p>
+    </div>
+    <div class="stat-item">
+      <h3>12</h3>
+      <p>Categories</p>
+    </div>
+    <div class="stat-item">
+      <h3>12</h3>
+      <p>Neighborhoods</p>
+    </div>
+    <div class="stat-item">
+      <h3>100%</h3>
+      <p>Editorial Quality</p>
+    </div>
+  </section>
+
+  <section class="featured-section">
+    <div class="container">
+      <h2>Featured Businesses</h2>
+      <div class="featured-grid">
+        <div class="business-card">
+          <div class="business-card-header">
+            <div class="business-category">Food & Drink</div>
+            <h3>Alphabet City Coffee</h3>
+          </div>
+          <div class="business-card-body">
+            <p class="business-desc">Award-winning specialty coffee roaster and cafe in Lawrenceville, serving single-origin espresso and pour-over preparations.</p>
+            <p class="business-location">Lawrenceville, Pittsburgh</p>
+            <a href="/business/alphabet-city-coffee/" class="read-more">Read Profile</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-card-header">
+            <div class="business-category">Arts & Culture</div>
+            <h3>Andy Warhol Museum</h3>
+          </div>
+          <div class="business-card-body">
+            <p class="business-desc">World-renowned museum dedicated to the life and work of Andy Warhol, featuring the largest collection of Warhol's artwork.</p>
+            <p class="business-location">North Shore, Pittsburgh</p>
+            <a href="/business/andy-warhol-museum/" class="read-more">Read Profile</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-card-header">
+            <div class="business-category">Health & Wellness</div>
+            <h3>Amazing Yoga Pittsburgh</h3>
+          </div>
+          <div class="business-card-body">
+            <p class="business-desc">Community yoga studio offering classes for all levels, from beginner to advanced, with certified instructors and welcoming atmosphere.</p>
+            <p class="business-location">Shadyside, Pittsburgh</p>
+            <a href="/business/amazing-yoga-pittsburgh/" class="read-more">Read Profile</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-card-header">
+            <div class="business-category">Professional Services</div>
+            <h3>Aurora Innovation</h3>
+          </div>
+          <div class="business-card-body">
+            <p class="business-desc">Technology consulting firm specializing in digital transformation and enterprise software solutions for mid-market companies.</p>
+            <p class="business-location">Downtown, Pittsburgh</p>
+            <a href="/business/aurora-innovation/" class="read-more">Read Profile</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-card-header">
+            <div class="business-category">Restaurants</div>
+            <h3>Apteka</h3>
+          </div>
+          <div class="business-card-body">
+            <p class="business-desc">Contemporary Eastern European restaurant celebrating Polish and regional European cuisine with locally-sourced ingredients.</p>
+            <p class="business-location">Strip District, Pittsburgh</p>
+            <a href="/business/apteka/" class="read-more">Read Profile</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-card-header">
+            <div class="business-category">Entertainment</div>
+            <h3>Arcade Comedy Theater</h3>
+          </div>
+          <div class="business-card-body">
+            <p class="business-desc">Independent comedy venue hosting stand-up, improv, and sketch shows in a historic building in the South Side.</p>
+            <p class="business-location">South Side, Pittsburgh</p>
+            <a href="/business/arcade-comedy-theater/" class="read-more">Read Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories-section">
+    <div class="container">
+      <h2>Browse by Category</h2>
+      <div class="categories-grid">
+        <a href="/category/restaurants/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">🍽</div>
+          <h3>Restaurants</h3>
+          <p>18 businesses</p>
+        </a>
+        <a href="/category/real-estate/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">🏢</div>
+          <h3>Real Estate</h3>
+          <p>12 businesses</p>
+        </a>
+        <a href="/category/technology/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">💻</div>
+          <h3>Technology</h3>
+          <p>15 businesses</p>
+        </a>
+        <a href="/category/health-wellness/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">💪</div>
+          <h3>Health & Wellness</h3>
+          <p>14 businesses</p>
+        </a>
+        <a href="/category/professional-services/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">📊</div>
+          <h3>Professional Services</h3>
+          <p>16 businesses</p>
+        </a>
+        <a href="/category/trades-construction/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">🔨</div>
+          <h3>Trades & Construction</h3>
+          <p>13 businesses</p>
+        </a>
+        <a href="/category/retail/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">🛍</div>
+          <h3>Retail</h3>
+          <p>11 businesses</p>
+        </a>
+        <a href="/category/arts-culture/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">🎨</div>
+          <h3>Arts & Culture</h3>
+          <p>10 businesses</p>
+        </a>
+        <a href="/category/food-drink/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">☕</div>
+          <h3>Food & Drink</h3>
+          <p>8 businesses</p>
+        </a>
+        <a href="/category/finance/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">💰</div>
+          <h3>Finance</h3>
+          <p>7 businesses</p>
+        </a>
+        <a href="/category/education/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">🎓</div>
+          <h3>Education</h3>
+          <p>6 businesses</p>
+        </a>
+        <a href="/category/nonprofit/" class="category-card" style="text-decoration: none; color: inherit;">
+          <div class="category-icon">❤</div>
+          <h3>Nonprofit</h3>
+          <p>9 businesses</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="neighborhoods-section">
+    <div class="container">
+      <h2>Explore by Neighborhood</h2>
+      <div class="neighborhoods-grid">
+        <a href="/neighborhood/lawrenceville/" class="neighborhood-link">Lawrenceville</a>
+        <a href="/neighborhood/strip-district/" class="neighborhood-link">Strip District</a>
+        <a href="/neighborhood/south-side/" class="neighborhood-link">South Side</a>
+        <a href="/neighborhood/shadyside/" class="neighborhood-link">Shadyside</a>
+        <a href="/neighborhood/east-liberty/" class="neighborhood-link">East Liberty</a>
+        <a href="/neighborhood/downtown/" class="neighborhood-link">Downtown</a>
+        <a href="/neighborhood/north-side/" class="neighborhood-link">North Side</a>
+        <a href="/neighborhood/oakland/" class="neighborhood-link">Oakland</a>
+        <a href="/neighborhood/squirrel-hill/" class="neighborhood-link">Squirrel Hill</a>
+        <a href="/neighborhood/bloomfield/" class="neighborhood-link">Bloomfield</a>
+        <a href="/neighborhood/mt-washington/" class="neighborhood-link">Mt Washington</a>
+        <a href="/neighborhood/point-breeze/" class="neighborhood-link">Point Breeze</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>List Your Business</h2>
+      <p>Is your Pittsburgh business making an impact? We'd love to feature your story.</p>
+      <a href="/submit/" class="cta-button">Submit Your Business</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Directory</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/submit/">Submit Business</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="/category/restaurants/">Restaurants</a></li>
+            <li><a href="/category/technology/">Technology</a></li>
+            <li><a href="/category/real-estate/">Real Estate</a></li>
+            <li><a href="/category/health-wellness/">Health & Wellness</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Neighborhoods</h3>
+          <ul>
+            <li><a href="/neighborhood/lawrenceville/">Lawrenceville</a></li>
+            <li><a href="/neighborhood/strip-district/">Strip District</a></li>
+            <li><a href="/neighborhood/downtown/">Downtown</a></li>
+            <li><a href="/neighborhood/shadyside/">Shadyside</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/feed.xml">RSS Feed</a></li>
+            <li><a href="https://thepittsburghwire.com">Pittsburgh Wire</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Pittsburgh Business Directory. Founded by Dr. Connor Robertson. A sister publication of <a href="https://thepittsburghwire.com">The Pittsburgh Wire</a>.</p>
+        <p style="margin-top: 10px;">&copy; 2026 Pittsburgh Business Directory. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

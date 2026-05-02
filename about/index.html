@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Pittsburgh Business Directory - Editorial Standards</title>
+  <meta name="description" content="Learn about the Pittsburgh Business Directory, our editorial standards, and mission to showcase the city's most innovative businesses and entrepreneurs." />
+  <link rel="canonical" href="https://pittsburghbusinessdirectory.com/about/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "About Pittsburgh Business Directory",
+    "description": "Editorial mission and standards",
+    "url": "https://pittsburghbusinessdirectory.com/about/"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --charcoal: #1a1a1a;
+      --gold: #C8A040;
+      --steel-gray: #444;
+      --light-gray: #f5f5f5;
+      --border-gray: #ddd;
+      --text-dark: #333;
+      --text-light: #666;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-dark);
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--charcoal);
+    }
+
+    header {
+      background: var(--charcoal);
+      border-bottom: 3px solid var(--gold);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .logo-text {
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .logo-tagline {
+      color: #aaa;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    .page-header {
+      background: linear-gradient(135deg, var(--charcoal) 0%, var(--steel-gray) 100%);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .page-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .page-header p {
+      font-size: 18px;
+      color: #ddd;
+    }
+
+    .content-section {
+      padding: 60px 20px;
+    }
+
+    .content-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: var(--charcoal);
+      border-bottom: 3px solid var(--gold);
+      padding-bottom: 15px;
+    }
+
+    .content-section p {
+      margin-bottom: 20px;
+      color: var(--text-light);
+      line-height: 1.8;
+    }
+
+    .content-section ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .content-section li {
+      margin-bottom: 12px;
+      color: var(--text-light);
+      line-height: 1.8;
+    }
+
+    .standards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin: 40px 0;
+    }
+
+    .standard-item {
+      background: var(--light-gray);
+      padding: 30px;
+      border-radius: 8px;
+      border-left: 4px solid var(--gold);
+    }
+
+    .standard-item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: var(--charcoal);
+    }
+
+    .standard-item p {
+      color: var(--text-light);
+      font-size: 14px;
+    }
+
+    footer {
+      background: var(--charcoal);
+      color: #ccc;
+      padding: 40px 20px;
+      border-top: 1px solid var(--steel-gray);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--gold);
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .footer-section h3 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+    }
+
+    .footer-section li {
+      margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--steel-gray);
+      padding-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      .page-header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-text">PGH BUSINESS</span>
+          <span class="logo-tagline">Editorial Directory</span>
+        </div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about/">About</a>
+          <a href="/category/restaurants/">Categories</a>
+          <a href="/neighborhood/lawrenceville/">Neighborhoods</a>
+          <a href="/blog/">Blog</a>
+          <a href="/submit/">Submit</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>About the Directory</h1>
+      <p>Celebrating Pittsburgh's entrepreneurial spirit through editorial storytelling</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>The Pittsburgh Business Directory is dedicated to telling the stories of the city's most innovative, impactful, and inspiring businesses and entrepreneurs. Rather than a traditional directory of basic listings, we approach each business profile as an editorial feature, providing readers with insight into the people behind the companies, their founding stories, business philosophies, and impact on the Pittsburgh community.</p>
+      <p>Founded by Dr. Connor Robertson, the directory is a sister publication of The Pittsburgh Wire and operates under the same editorial standards that have made The Wire a trusted voice in Pittsburgh business and development news.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Editorial Standards</h2>
+      <p>Every business profile in the Pittsburgh Business Directory meets rigorous editorial standards:</p>
+
+      <div class="standards-grid">
+        <div class="standard-item">
+          <h3>Original Research</h3>
+          <p>Profiles are based on original interviews, site visits, and comprehensive research about the business, its founders, and impact on the community.</p>
+        </div>
+
+        <div class="standard-item">
+          <h3>Journalistic Integrity</h3>
+          <p>We maintain editorial independence and fact-check all claims. Profiles present truthful, balanced accounts of businesses and their operations.</p>
+        </div>
+
+        <div class="standard-item">
+          <h3>Community Focus</h3>
+          <p>We prioritize businesses that contribute to Pittsburgh's economic vitality, job creation, and community well-being.</p>
+        </div>
+
+        <div class="standard-item">
+          <h3>Quality Writing</h3>
+          <p>Each profile is professionally written and edited to publication standards, providing readers with engaging, informative content.</p>
+        </div>
+
+        <div class="standard-item">
+          <h3>Structural Schema</h3>
+          <p>All business profiles include LocalBusiness schema markup to ensure discoverability and proper indexing by search engines.</p>
+        </div>
+
+        <div class="standard-item">
+          <h3>Transparency</h3>
+          <p>We disclose our relationship with businesses and maintain clear separation between editorial content and any promotional material.</p>
+        </div>
+      </div>
+    </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Content Categories</h2>
+      <p>The directory covers businesses across 12 major categories:</p>
+      <ul>
+        <li><strong>Restaurants & Food Service</strong> - Fine dining, casual restaurants, cafes, food trucks, and specialty food producers</li>
+        <li><strong>Real Estate & Development</strong> - Property developers, commercial real estate firms, architects, and construction companies</li>
+        <li><strong>Technology & Software</strong> - Tech startups, software companies, digital agencies, and IT consultants</li>
+        <li><strong>Health & Wellness</strong> - Fitness studios, medical practices, mental health services, and wellness providers</li>
+        <li><strong>Professional Services</strong> - Law firms, accountants, consulting firms, and business service providers</li>
+        <li><strong>Trades & Construction</strong> - Contractors, tradespeople, plumbers, electricians, and construction firms</li>
+        <li><strong>Retail & E-Commerce</strong> - Retail shops, boutiques, online retailers, and specialty stores</li>
+        <li><strong>Arts & Culture</strong> - Museums, galleries, theaters, artist studios, and cultural institutions</li>
+        <li><strong>Finance & Investment</strong> - Banks, credit unions, financial advisors, and investment firms</li>
+        <li><strong>Education & Training</strong> - Educational institutions, training centers, and professional development providers</li>
+        <li><strong>Nonprofit & Community Services</strong> - Nonprofits, community organizations, and social enterprises</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Neighborhood Coverage</h2>
+      <p>We organize profiles by Pittsburgh neighborhood to support local business discovery and neighborhood-level SEO. Our current neighborhood coverage includes Lawrenceville, Strip District, South Side, Shadyside, East Liberty, Downtown, North Side, Oakland, Squirrel Hill, Bloomfield, Mt. Washington, and Point Breeze, with expansion planned to additional neighborhoods.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Why Editorial Content?</h2>
+      <p>Unlike traditional business directories that list basic information, the Pittsburgh Business Directory provides substantial editorial content that qualifies for inclusion in major news aggregators and search index features. This approach:</p>
+      <ul>
+        <li>Gives readers meaningful insight into businesses and their founders</li>
+        <li>Supports local SEO through comprehensive, unique content</li>
+        <li>Helps businesses tell their story to a wider audience</li>
+        <li>Provides original reporting on Pittsburgh's business community</li>
+        <li>Qualifies for Google News Publisher Center inclusion</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Directory</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/submit/">Submit Business</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="/category/restaurants/">Restaurants</a></li>
+            <li><a href="/category/technology/">Technology</a></li>
+            <li><a href="/category/real-estate/">Real Estate</a></li>
+            <li><a href="/category/health-wellness/">Health & Wellness</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Neighborhoods</h3>
+          <ul>
+            <li><a href="/neighborhood/lawrenceville/">Lawrenceville</a></li>
+            <li><a href="/neighborhood/strip-district/">Strip District</a></li>
+            <li><a href="/neighborhood/downtown/">Downtown</a></li>
+            <li><a href="/neighborhood/shadyside/">Shadyside</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/feed.xml">RSS Feed</a></li>
+            <li><a href="https://thepittsburghwire.com">Pittsburgh Wire</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Pittsburgh Business Directory. Founded by Dr. Connor Robertson. A sister publication of <a href="https://thepittsburghwire.com">The Pittsburgh Wire</a>.</p>
+        <p style="margin-top: 10px;">&copy; 2026 Pittsburgh Business Directory. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

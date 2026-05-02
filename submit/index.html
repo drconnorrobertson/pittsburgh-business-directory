@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submit Your Business - Pittsburgh Business Directory</title>
+  <meta name="description" content="Submit your Pittsburgh business for consideration in the Pittsburgh Business Directory editorial profiles." />
+  <link rel="canonical" href="https://pittsburghbusinessdirectory.com/submit/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --charcoal: #1a1a1a;
+      --gold: #C8A040;
+      --steel-gray: #444;
+      --light-gray: #f5f5f5;
+      --border-gray: #ddd;
+      --text-dark: #333;
+      --text-light: #666;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-dark);
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    header {
+      background: var(--charcoal);
+      border-bottom: 3px solid var(--gold);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .logo-text {
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .logo-tagline {
+      color: #aaa;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    .page-header {
+      background: linear-gradient(135deg, var(--charcoal) 0%, var(--steel-gray) 100%);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .page-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .form-section {
+      padding: 60px 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: var(--charcoal);
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="url"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid var(--border-gray);
+      border-radius: 4px;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="tel"]:focus,
+    input[type="url"]:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(200, 160, 64, 0.1);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .form-note {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 5px;
+    }
+
+    .submit-btn {
+      background: var(--gold);
+      color: var(--charcoal);
+      padding: 15px 40px;
+      border: none;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      width: 100%;
+    }
+
+    .submit-btn:hover {
+      background: #daa520;
+      transform: translateY(-2px);
+    }
+
+    .info-box {
+      background: var(--light-gray);
+      padding: 25px;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      border-left: 4px solid var(--gold);
+    }
+
+    .info-box h3 {
+      margin-bottom: 10px;
+      color: var(--charcoal);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .info-box p {
+      color: var(--text-light);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    footer {
+      background: var(--charcoal);
+      color: #ccc;
+      padding: 40px 20px;
+      border-top: 1px solid var(--steel-gray);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--gold);
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .footer-section h3 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+    }
+
+    .footer-section li {
+      margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--steel-gray);
+      padding-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      .page-header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-text">PGH BUSINESS</span>
+          <span class="logo-tagline">Editorial Directory</span>
+        </div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about/">About</a>
+          <a href="/category/restaurants/">Categories</a>
+          <a href="/neighborhood/lawrenceville/">Neighborhoods</a>
+          <a href="/blog/">Blog</a>
+          <a href="/submit/">Submit</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Submit Your Business</h1>
+      <p>Tell us about your Pittsburgh business</p>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <div class="info-box">
+      <h3>What we're looking for</h3>
+      <p>We feature innovative, community-focused businesses across Pittsburgh. Your business should be making a positive impact on the city and its people. Submissions are reviewed monthly and selected businesses are contacted for an editorial profile interview.</p>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="business-name">Business Name *</label>
+        <input type="text" id="business-name" name="business_name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="owner-name">Owner/Founder Name *</label>
+        <input type="text" id="owner-name" name="owner_name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="contact-email">Contact Email *</label>
+        <input type="email" id="contact-email" name="contact_email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="contact-phone">Phone Number</label>
+        <input type="tel" id="contact-phone" name="contact_phone" />
+      </div>
+
+      <div class="form-group">
+        <label for="business-url">Website URL</label>
+        <input type="url" id="business-url" name="business_url" />
+      </div>
+
+      <div class="form-group">
+        <label for="business-category">Primary Business Category *</label>
+        <select id="business-category" name="business_category" required>
+          <option value="">Select a category</option>
+          <option value="restaurants">Restaurants & Food Service</option>
+          <option value="real-estate">Real Estate & Development</option>
+          <option value="technology">Technology & Software</option>
+          <option value="health-wellness">Health & Wellness</option>
+          <option value="professional-services">Professional Services</option>
+          <option value="trades-construction">Trades & Construction</option>
+          <option value="retail">Retail & E-Commerce</option>
+          <option value="arts-culture">Arts & Culture</option>
+          <option value="finance">Finance & Investment</option>
+          <option value="education">Education & Training</option>
+          <option value="nonprofit">Nonprofit & Community Services</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="neighborhood">Neighborhood *</label>
+        <select id="neighborhood" name="neighborhood" required>
+          <option value="">Select a neighborhood</option>
+          <option value="lawrenceville">Lawrenceville</option>
+          <option value="strip-district">Strip District</option>
+          <option value="south-side">South Side</option>
+          <option value="shadyside">Shadyside</option>
+          <option value="east-liberty">East Liberty</option>
+          <option value="downtown">Downtown</option>
+          <option value="north-side">North Side</option>
+          <option value="oakland">Oakland</option>
+          <option value="squirrel-hill">Squirrel Hill</option>
+          <option value="bloomfield">Bloomfield</option>
+          <option value="mt-washington">Mt Washington</option>
+          <option value="point-breeze">Point Breeze</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="founded-year">Year Founded</label>
+        <input type="text" id="founded-year" name="founded_year" />
+      </div>
+
+      <div class="form-group">
+        <label for="business-description">Business Description *</label>
+        <textarea id="business-description" name="business_description" required></textarea>
+        <p class="form-note">Tell us about your business, what makes it unique, and its impact on Pittsburgh (500-1000 words is ideal)</p>
+      </div>
+
+      <div class="form-group">
+        <label for="founder-story">Founder/Owner Story</label>
+        <textarea id="founder-story" name="founder_story"></textarea>
+        <p class="form-note">Share your background and journey to starting this business</p>
+      </div>
+
+      <div class="form-group">
+        <label for="additional-info">Additional Information</label>
+        <textarea id="additional-info" name="additional_info"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Your Business</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Directory</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/submit/">Submit Business</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="/category/restaurants/">Restaurants</a></li>
+            <li><a href="/category/technology/">Technology</a></li>
+            <li><a href="/category/real-estate/">Real Estate</a></li>
+            <li><a href="/category/health-wellness/">Health & Wellness</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Neighborhoods</h3>
+          <ul>
+            <li><a href="/neighborhood/lawrenceville/">Lawrenceville</a></li>
+            <li><a href="/neighborhood/strip-district/">Strip District</a></li>
+            <li><a href="/neighborhood/downtown/">Downtown</a></li>
+            <li><a href="/neighborhood/shadyside/">Shadyside</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/feed.xml">RSS Feed</a></li>
+            <li><a href="https://thepittsburghwire.com">Pittsburgh Wire</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Pittsburgh Business Directory. Founded by Dr. Connor Robertson. A sister publication of <a href="https://thepittsburghwire.com">The Pittsburgh Wire</a>.</p>
+        <p style="margin-top: 10px;">&copy; 2026 Pittsburgh Business Directory. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

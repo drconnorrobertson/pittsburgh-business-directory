@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pittsburghbusinessdirectory.com/sitemap.xml
+Sitemap: https://pittsburghbusinessdirectory.com/feed.xml
+
+# Disallow: /search
+# Disallow: /api
