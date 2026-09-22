@@ -1,6 +1,6 @@
 # Directory search index audit
 
-The search index includes 104 existing business profiles. It excludes eight category landing pages that sit under `business/` and 11 profiles with `555` placeholder telephone numbers.
+The search index includes 104 existing business profiles. It excludes eight category landing pages that sit under `business/` and 11 profiles with `555` placeholder telephone numbers. The homepage also no longer features an excluded profile.
 
 Excluded profiles needing source verification:
 
