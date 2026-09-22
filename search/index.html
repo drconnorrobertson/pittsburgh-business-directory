@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Pittsburgh Businesses | Pittsburgh Business Directory</title>
+  <meta name="description" content="Search Pittsburgh business profiles by name, neighborhood, or topic.">
+  <link rel="canonical" href="https://pittsburghbusinessdirectory.com/search/">
+  <style>
+    :root{font-family:Inter,Arial,sans-serif;color:#242424;background:#f8f7f3}*{box-sizing:border-box}body{margin:0}a{color:#8f661a}header{background:#1a1a1a;color:#fff;padding:1.2rem max(4vw,20px);display:flex;justify-content:space-between;gap:1rem}header a{color:#fff;text-decoration:none}main{max-width:1100px;margin:auto;padding:2.5rem max(4vw,20px)}h1{font-size:clamp(2rem,5vw,3.5rem);margin:.3rem 0 1rem}p{line-height:1.55}.eyebrow{text-transform:uppercase;letter-spacing:.15em;color:#8f661a;font-weight:800;font-size:.72rem}.search{display:flex;gap:.65rem;margin:2rem 0}input{min-width:0;flex:1;padding:.85rem;border:1px solid #989898;border-radius:7px;font:inherit}button{background:#1a1a1a;color:#fff;border:0;border-radius:7px;padding:.8rem 1.2rem;font:inherit;font-weight:700;cursor:pointer}#count{color:#555}.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0}.result{background:#fff;border:1px solid #ddd;border-radius:10px;padding:1.2rem}.result h2{font-size:1.25rem;margin:.1rem 0 .55rem}.result h2 a{text-decoration:none;color:#212121}.result h2 a:hover{text-decoration:underline}.result p{color:#555;margin:0;font-size:.92rem}.note{border-top:1px solid #ddd;padding-top:1.2rem;color:#555;font-size:.85rem}@media(max-width:700px){.results{grid-template-columns:1fr}} 
+  </style>
+  <script defer src="./search.js"></script>
+</head>
+<body>
+  <header><a href="/"><strong>PGH BUSINESS DIRECTORY</strong></a><a href="/submit/">Suggest a business</a></header>
+  <main>
+    <p class="eyebrow">Business discovery</p>
+    <h1>Search Pittsburgh business profiles</h1>
+    <p>Find editorial profiles by business name, neighborhood, or topic.</p>
+    <form class="search" action="/search/" method="get" role="search">
+      <input id="query" name="q" type="search" placeholder="Try coffee, Lawrenceville, or software" aria-label="Search businesses" autofocus>
+      <button type="submit">Search</button>
+    </form>
+    <p id="count" role="status" aria-live="polite">Loading profiles…</p>
+    <div id="results" class="results"></div>
+    <p class="note">Profiles are editorial content. Confirm current business details directly with the business before visiting or contacting it.</p>
+  </main>
+</body>
+</html>
