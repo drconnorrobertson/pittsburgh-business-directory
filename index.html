@@ -21,7 +21,7 @@
     "url": "https://pittsburghbusinessdirectory.com",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://pittsburghbusinessdirectory.com/search?q={search_term_string}",
+      "target": "https://pittsburghbusinessdirectory.com/search/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -515,16 +515,16 @@
     <div class="container">
       <h1>Discover Pittsburgh's Best Businesses</h1>
       <p>In-depth editorial profiles of the city's most innovative and impactful entrepreneurs</p>
-      <div class="search-box">
-        <input type="text" placeholder="Search businesses, categories, neighborhoods..." />
-        <button>Search</button>
-      </div>
+      <form class="search-box" action="/search/" method="get" role="search">
+        <input type="search" name="q" aria-label="Search businesses" placeholder="Search businesses, neighborhoods, topics..." required />
+        <button type="submit">Search</button>
+      </form>
     </div>
   </section>
 
   <section class="stats">
     <div class="stat-item">
-      <h3>124+</h3>
+      <h3>100+</h3>
       <p>Businesses</p>
     </div>
     <div class="stat-item">
@@ -545,18 +545,6 @@
     <div class="container">
       <h2>Featured Businesses</h2>
       <div class="featured-grid">
-        <div class="business-card">
-          <div class="business-card-header">
-            <div class="business-category">Food & Drink</div>
-            <h3>Alphabet City Coffee</h3>
-          </div>
-          <div class="business-card-body">
-            <p class="business-desc">Award-winning specialty coffee roaster and cafe in Lawrenceville, serving single-origin espresso and pour-over preparations.</p>
-            <p class="business-location">Lawrenceville, Pittsburgh</p>
-            <a href="/business/alphabet-city-coffee/" class="read-more">Read Profile</a>
-          </div>
-        </div>
-
         <div class="business-card">
           <div class="business-card-header">
             <div class="business-category">Arts & Culture</div>

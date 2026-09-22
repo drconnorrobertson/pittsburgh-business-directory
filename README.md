@@ -8,7 +8,7 @@ The Pittsburgh Business Directory is a standalone spin-off from The Pittsburgh W
 
 ## Key Features
 
-- **124+ Business Profiles**: Complete editorial profiles of Pittsburgh businesses
+- **100+ Business Profiles**: Complete editorial profiles of Pittsburgh businesses
 - **12 Business Categories**: Restaurants, Real Estate, Technology, Health & Wellness, Professional Services, Trades & Construction, Retail, Arts & Culture, Food & Drink, Finance, Education, and Nonprofit
 - **12 Neighborhood Sections**: Lawrenceville, Strip District, South Side, Shadyside, East Liberty, Downtown, North Side, Oakland, Squirrel Hill, Bloomfield, Mt Washington, and Point Breeze
 - **10 Editorial Blog Posts**: Long-form articles covering industry trends, business awards, and business spotlights
@@ -231,3 +231,7 @@ Copyright 2026 Pittsburgh Business Directory. All rights reserved.
 
 Founded by Dr. Connor Robertson.
 Sister publication of The Pittsburgh Wire (https://thepittsburghwire.com)
+
+## Search
+
+The homepage search leads to `/search/`, which searches the reviewed snapshot in `search/profiles.json` by business name and description. The snapshot currently includes 104 profiles. See `SEARCH-AUDIT.md` for excluded placeholder profiles and verification work. Refresh the JSON index when profiles change.
