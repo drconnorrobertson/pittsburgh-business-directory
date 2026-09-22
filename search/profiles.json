@@ -1,0 +1,522 @@
+[
+  {
+    "name": "412 Food Rescue",
+    "description": "412 Food Rescue is a food rescue nonprofit founded in 2015. Using technology and logistics innovation, it has rescued 30M+ lbs of food, with a model now replicated in cities across America.",
+    "url": "/business/412-food-rescue/"
+  },
+  {
+    "name": "Abridge",
+    "description": "Abridge is an AI-powered clinical documentation tool founded in 2018 by Dr. Shiv Rao. Based in Oakland, Pittsburgh, Abridge records and summarizes doctor-patient conversations in real time, helping clinicians reduce documentation burden. The company has raised over $150 million and partners with major health systems including UPMC.",
+    "url": "/business/abridge-health/"
+  },
+  {
+    "name": "Allegheny General Hospital",
+    "description": "Level I Trauma Center on Pittsburgh's North Side since 1886. Part of Allegheny Health Network. 4,000+ employees and nationally recognized cardiac and neuroscience programs.",
+    "url": "/business/allegheny-general-hospital/"
+  },
+  {
+    "name": "Allegheny Health Network",
+    "description": "Allegheny Health Network is a major integrated health system on Pittsburgh's North Side. Allegheny General Hospital, founded in 1885, serves as the flagship facility. AHN operates 14 hospitals across western Pennsylvania and employs over 21,000 people, making it one of the region's largest employers.",
+    "url": "/business/allegheny-health-network/"
+  },
+  {
+    "name": "Amazing Yoga",
+    "description": "Pittsburgh's original hot power yoga studio with three locations, named Best Yoga Studio & Teachers by Pittsburgh Magazine eight years running.",
+    "url": "/business/amazing-yoga-pittsburgh/"
+  },
+  {
+    "name": "Apple Box Studios",
+    "description": "Apple Box Studios is a full-service marketing agency founded in 2004. Specializing in healthcare, technology, and medtech with 25+ employees, it delivers integrated campaigns from strategy to production.",
+    "url": "/business/apple-box-studios/"
+  },
+  {
+    "name": "Apteka",
+    "description": "Vegan Eastern European bar and kitchen in Bloomfield. Apteka reimagines Polish and Central European traditions through a plant-based lens with a killer natural wine list.",
+    "url": "/business/apteka/"
+  },
+  {
+    "name": "Arcade Comedy Theater",
+    "description": "Pittsburgh's best comedy venue -- a BYOB non-profit theater in the Cultural District featuring improv, stand-up, sketch comedy, and variety shows with tickets from $5-$20.",
+    "url": "/business/arcade-comedy-theater/"
+  },
+  {
+    "name": "Arsenal Bowl",
+    "description": "Classic 22-lane Lawrenceville bowling alley offering bowling, food, drinks, and nightly specials -- a beloved Pittsburgh neighborhood entertainment destination.",
+    "url": "/business/arsenal-bowl/"
+  },
+  {
+    "name": "Aurora Innovation",
+    "description": "Aurora Innovation is a self-driving vehicle technology company founded in 2017 by Chris Urmson, Sterling Anderson, and Drew Bagnell. Based in Pittsburgh's Lawrenceville and Strip District, the company is developing the Aurora Driver platform and conducting extensive testing on Pittsburgh streets.",
+    "url": "/business/aurora-innovation/"
+  },
+  {
+    "name": "Baum Boulevard Automotive",
+    "description": "Full-service auto repair offering oil changes, tire service, safety and emissions inspections, and general automotive maintenance across Pittsburgh.",
+    "url": "/business/baum-boulevard-automotive/"
+  },
+  {
+    "name": "Bitter Ends Garden & Luncheonette",
+    "description": "A Bloomfield garden cafe serving seasonal, vegetable-forward dishes in one of Pittsburgh's most charming spaces. Farm-to-table at its most intimate.",
+    "url": "/business/bitter-ends-garden-luncheonette/"
+  },
+  {
+    "name": "Brunner",
+    "description": "Brunner is one of Pittsburgh's largest independent advertising agencies, founded in 1989. With 120+ employees, it creates data-driven creative campaigns for national and regional clients.",
+    "url": "/business/brunner-agency/"
+  },
+  {
+    "name": "Butterjoint",
+    "description": "Craft cocktail bar and kitchen in Oakland from chef Trevett Hooper. Butterjoint pairs inventive drinks with a menu of refined bar food near the University of Pittsburgh.",
+    "url": "/business/butterjoint/"
+  },
+  {
+    "name": "Cardamone's Salon",
+    "description": "Downtown Pittsburgh's iconic family-owned salon offering hair color, cuts, barbering, microblading, eyelash extensions, and waxing since 1977.",
+    "url": "/business/cardamones-salon/"
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "description": "Carnegie Mellon University is a world-class research institution founded in 1900. Located in Oakland, CMU is home to the Robotics Institute and top-ranked programs in computer science, AI, and engineering.",
+    "url": "/business/carnegie-mellon-university/"
+  },
+  {
+    "name": "Carnegie Museums of Pittsburgh",
+    "description": "Four world-class museums under one organization: the Carnegie Museum of Art, Carnegie Museum of Natural History, Carnegie Science Center, and The Andy Warhol Museum.",
+    "url": "/business/carnegie-museums-pittsburgh/"
+  },
+  {
+    "name": "Carnegie Robotics",
+    "description": "Industrial robotics and sensing company spun out of Carnegie Mellon's National Robotics Engineering Center. Building the perception systems that let robots see and navigate the real world.",
+    "url": "/business/carnegie-robotics/"
+  },
+  {
+    "name": "Chatham University",
+    "description": "Historic university in Shadyside founded in 1869. Known for sustainability, healthcare, and environmental science. Home to one of the world's first net-zero campuses.",
+    "url": "/business/chatham-university/"
+  },
+  {
+    "name": "Cinderlands Beer Co.",
+    "description": "Brewpub and foeder beer project in the Strip District. Cinderlands combines creative brewing with a serious food program in one of Pittsburgh's most exciting spaces.",
+    "url": "/business/cinderlands-beer-co/"
+  },
+  {
+    "name": "Common Plea Catering",
+    "description": "Pittsburgh's premier full-service catering and events company since 1987. Founded by Dave Anoia. Farm-to-table menus for corporate, wedding, and nonprofit events.",
+    "url": "/business/common-plea-catering/"
+  },
+  {
+    "name": "Construction Junction",
+    "description": "Nonprofit building materials reuse center in Point Breeze. Diverts 4M+ pounds from landfills annually. Pittsburgh's top source for salvaged construction materials.",
+    "url": "/business/construction-junction/"
+  },
+  {
+    "name": "Craft Collective Salon",
+    "description": "Craft Collective Salon is Pittsburgh's top-rated hair salon, founded by globally recognized Wella Professionals artist Derek Piekarski. Specializing in balayage, blonding, extensions, and precision cuts at locations in North Hills and Canonsburg.",
+    "url": "/business/craft-collective-salon/"
+  },
+  {
+    "name": "Cure",
+    "description": "James Beard-nominated Italian restaurant in Lawrenceville specializing in house-cured meats and handmade pasta. A cornerstone of Pittsburgh's fine dining scene.",
+    "url": "/business/cure-restaurant/"
+  },
+  {
+    "name": "Dancing Gnome Beer",
+    "description": "One of Pittsburgh's most acclaimed craft breweries, known for exceptional IPAs and a loyal following. Based in Sharpsburg with a reputation that reaches far beyond the city.",
+    "url": "/business/dancing-gnome-beer/"
+  },
+  {
+    "name": "DiAnoia's Eatery",
+    "description": "Italian-American cooking at its finest in the Strip District. DiAnoia's serves handmade pasta, wood-fired dishes, and some of the best meatballs in Pittsburgh.",
+    "url": "/business/dianoias-eatery/"
+  },
+  {
+    "name": "Dick's Sporting Goods",
+    "description": "Dick's Sporting Goods was founded in 1948 and is now headquartered in the Pittsburgh region. The largest sporting goods retailer in the US with 850+ locations and 50,000+ employees nationwide.",
+    "url": "/business/dicks-sporting-goods/"
+  },
+  {
+    "name": "Dollar Bank",
+    "description": "Mutual savings bank founded in 1855 in Downtown Pittsburgh. Over $10B in assets, 1,200+ employees, and 170+ years of community banking.",
+    "url": "/business/dollar-bank/"
+  },
+  {
+    "name": "Driftwood Oven",
+    "description": "Wood-fired Neapolitan pizza in Lawrenceville. Driftwood Oven serves some of Pittsburgh's best pies from a custom-built oven using locally milled flour and seasonal toppings.",
+    "url": "/business/driftwood-oven/"
+  },
+  {
+    "name": "Duolingo",
+    "description": "Duolingo is a Pittsburgh-based language learning company founded in 2011 by Luis von Ahn and Severin Hacker. Headquartered in Oakland, the company went public on Nasdaq in 2021 and serves over 500 million users globally.",
+    "url": "/business/duolingo-pittsburgh/"
+  },
+  {
+    "name": "Duquesne University",
+    "description": "Duquesne University is a top 10 Catholic university founded in 1878. Located on the Bluff with commanding views of Downtown Pittsburgh. Home to outstanding pharmacy, law, business, and music programs.",
+    "url": "/business/duquesne-university/"
+  },
+  {
+    "name": "East End Brewing Company",
+    "description": "East End Brewing Company has been crafting quality beer in Pittsburgh's Larimer neighborhood since 2004. Known for Pedal Pale Ale, Big Hop IPA, and a strong commitment to sustainability.",
+    "url": "/business/east-end-brewing/"
+  },
+  {
+    "name": "Eichenlaub Inc.",
+    "description": "Award-winning design-build landscape construction and maintenance firm offering custom outdoor living spaces, hardscaping, and tree services since 1972.",
+    "url": "/business/eichenlaub-landscaping/"
+  },
+  {
+    "name": "Eleventh Hour Brewing",
+    "description": "Neighborhood craft brewery in Lawrenceville with a cozy taproom and rotating taps. Known for balanced, approachable beers and a welcoming community vibe.",
+    "url": "/business/eleventh-hour-brewing/"
+  },
+  {
+    "name": "Escape The Room Pittsburgh",
+    "description": "Pittsburgh's #1 rated escape room with 4.9 stars across 4,447 Google reviews, featuring four themed puzzle rooms on the South Side.",
+    "url": "/business/escape-room-pittsburgh/"
+  },
+  {
+    "name": "Evolve Wellness Spa",
+    "description": "Comprehensive wellness spa in Shadyside offering massage therapy, acupuncture, facials, waxing, and specialized treatments including prenatal massage.",
+    "url": "/business/evolve-wellness-spa/"
+  },
+  {
+    "name": "Fat Head's Saloon",
+    "description": "Legendary South Side brewpub serving oversized sandwiches and award-winning craft beer since 1992. A Pittsburgh institution on East Carson Street.",
+    "url": "/business/fat-heads-saloon/"
+  },
+  {
+    "name": "Frew Plumbing, Heating & AC",
+    "description": "Legendary Pittsburgh plumbing and HVAC company offering residential and commercial services, including emergency repair, boiler systems, and bath remodeling.",
+    "url": "/business/frew-plumbing/"
+  },
+  {
+    "name": "Gatesman",
+    "description": "Top-100 national independent marketing and advertising agency offering digital marketing, branding, PR, and creative services. Named Ad Age Best Place to Work.",
+    "url": "/business/gatesman-agency/"
+  },
+  {
+    "name": "Gaucho Parrilla Argentina",
+    "description": "Gaucho Parrilla Argentina is located in Pittsburgh's Strip District, known for authentic Argentine-style wood-fired grill cuisine. The restaurant brings traditional parrilla technique from Buenos Aires to Pittsburgh, offering an immersive South American dining experience.",
+    "url": "/business/gaucho-parrilla/"
+  },
+  {
+    "name": "Gecko Robotics",
+    "description": "Pittsburgh robotics company building wall-climbing inspection robots for power plants, refineries, and industrial infrastructure. A Carnegie Mellon spinout now valued at over $1 billion.",
+    "url": "/business/gecko-robotics/"
+  },
+  {
+    "name": "Gi-Jin",
+    "description": "Upscale Japanese-inspired restaurant and cocktail bar in Downtown Pittsburgh. Omakase, hand rolls, and a stunning interior from the DeShantz Restaurant Group.",
+    "url": "/business/gi-jin/"
+  },
+  {
+    "name": "Grandview Saloon",
+    "description": "Mt. Washington restaurant and bar with Pittsburgh's most iconic skyline view. Serving classic American fare on Grandview Avenue since 1986.",
+    "url": "/business/grandview-saloon/"
+  },
+  {
+    "name": "Grice Chiropractic",
+    "description": "Long-established chiropractic practice on Grandview Avenue with four doctors, 85+ years of combined experience, and a 96% patient recommendation rate.",
+    "url": "/business/grice-chiropractic/"
+  },
+  {
+    "name": "Grist House Craft Brewery",
+    "description": "Grist House Craft Brewery was founded in 2013 by Eric Arner, Patrick Castelli, Brant Harrington, and Brian Eaton. With locations in Collier Township and Millvale, the community-first brewery is known for Grumpus Imperial Stout and Peel Hefeweizen, and has been named Pittsburgh's best brewery multiple years.",
+    "url": "/business/grist-house-brewery/"
+  },
+  {
+    "name": "Hefren-Tillotson",
+    "description": "National financial advisory firm managing $6.2 billion in assets, founded in Pittsburgh in 1948, serving clients across 47 states from downtown headquarters.",
+    "url": "/business/hefren-tillotson/"
+  },
+  {
+    "name": "Highmark Health",
+    "description": "Highmark Health is one of America's largest health insurance organizations and parent company of Allegheny Health Network. Founded as Blue Cross in 1977, headquartered in Pittsburgh.",
+    "url": "/business/highmark-health/"
+  },
+  {
+    "name": "Hitchhiker Brewing",
+    "description": "Innovative craft brewery in Sharpsburg pushing the boundaries of hazy IPAs, sours, and experimental ales. One of Pittsburgh's most creative brewing operations.",
+    "url": "/business/hitchhiker-brewing/"
+  },
+  {
+    "name": "Hop Farm Brewing",
+    "description": "Lawrenceville brewery and taproom focused on hop-forward ales and lagers. Hop Farm combines West Coast brewing sensibility with Pittsburgh neighborhood spirit.",
+    "url": "/business/hop-farm-brewing/"
+  },
+  {
+    "name": "Houston Harbaugh, P.C.",
+    "description": "One of Pittsburgh's top 20 law firms specializing in business law, litigation, healthcare, employment, real estate, and intellectual property with 21 lawyers in Best Lawyers 2026.",
+    "url": "/business/houston-harbaugh/"
+  },
+  {
+    "name": "Howard Hanna Real Estate",
+    "description": "The #1 family-owned and -operated real estate company in the country, founded in Shadyside in 1957 with presence across the Mid-Atlantic region.",
+    "url": "/business/howard-hanna-real-estate/"
+  },
+  {
+    "name": "Kelly Strayhorn Theater",
+    "description": "Performing arts theater in East Liberty named after Gene Kelly and Billy Strayhorn. Contemporary dance, theater, and community arts since 2003.",
+    "url": "/business/kelly-strayhorn-theater/"
+  },
+  {
+    "name": "Klavon's Ice Cream Parlor",
+    "description": "Klavon's Ice Cream Parlor has been serving Pittsburgh since 1923. A vintage soda fountain with an Art Deco interior and marble counter, Klavon's is one of the city's oldest continuously operating food businesses.",
+    "url": "/business/klavons-ice-cream/"
+  },
+  {
+    "name": "Legacy Remodeling",
+    "description": "Full-service home improvement company offering window and door installation, siding, kitchen and bath remodeling, and interior transformations across Pittsburgh.",
+    "url": "/business/legacy-remodeling/"
+  },
+  {
+    "name": "Local Roots Landscaping",
+    "description": "Design-build landscape company specializing in custom residential and commercial landscape design, installation, and maintenance across Southwestern Pennsylvania.",
+    "url": "/business/local-roots-landscaping/"
+  },
+  {
+    "name": "Magee-Womens Hospital of UPMC",
+    "description": "Top-ranked women's hospital in Oakland delivering 10,000+ babies annually since 1911. Home to the globally recognized Magee-Womens Research Institute.",
+    "url": "/business/magee-womens-hospital/"
+  },
+  {
+    "name": "Mascaro Construction",
+    "description": "Mascaro Construction, founded in 1988 by John Mascaro Jr., is one of Pittsburgh's largest privately held construction firms. Based on the North Shore, the company is known for major civic projects including PNC Park, UPMC facilities, and stadium-scale infrastructure work.",
+    "url": "/business/mascaro-construction/"
+  },
+  {
+    "name": "Michael Baker International",
+    "description": "Michael Baker International was founded in 1940 by Michael Baker. The engineering, architecture, and consulting firm has designed major infrastructure projects across the US and internationally, including bridges and highway systems. Based in Moon Township, the firm maintains deep Pittsburgh roots.",
+    "url": "/business/michael-baker-international/"
+  },
+  {
+    "name": "Millcraft Investments",
+    "description": "The developer reshaping Downtown Pittsburgh. Millcraft Investments has been behind some of the city's most ambitious mixed-use and hospitality projects.",
+    "url": "/business/millcraft-investments/"
+  },
+  {
+    "name": "Mister Grooming & Goods",
+    "description": "Traditional barbershop on Butler Street offering haircuts, color, beard trims, manicures, and grooming products. Named Best Barber Shop by Pittsburgh City Paper.",
+    "url": "/business/mister-grooming-goods/"
+  },
+  {
+    "name": "Morcilla",
+    "description": "Spanish-inspired small plates and pintxos in Lawrenceville from James Beard-nominated chef Justin Severino. One of Pittsburgh's most celebrated restaurants.",
+    "url": "/business/morcilla/"
+  },
+  {
+    "name": "Niche.com",
+    "description": "Pittsburgh-based platform helping students and families find the right schools and neighborhoods. Niche ranks every school, college, and community in America using real data and reviews.",
+    "url": "/business/niche-dot-com/"
+  },
+  {
+    "name": "Oxford Development",
+    "description": "Pittsburgh's premier commercial real estate developer. Oxford Development has built and manages many of the city's most important office, retail, and mixed-use properties.",
+    "url": "/business/oxford-development/"
+  },
+  {
+    "name": "Pamela's Diner",
+    "description": "Pittsburgh's beloved breakfast institution, famous for hotcakes that earned a presidential endorsement. A Strip District staple since 1980.",
+    "url": "/business/pamelas-diner/"
+  },
+  {
+    "name": "Pavement",
+    "description": "Creatively curated Lawrenceville boutique featuring shoes, clothing, and handmade accessories by local, indie, and eco-conscious designers.",
+    "url": "/business/pavement-boutique/"
+  },
+  {
+    "name": "Pennsylvania Macaroni Company",
+    "description": "Pennsylvania Macaroni Company is a Pittsburgh institution in the Strip District, operated by the Sunseri family for four generations. Founded in 1902, the business is known for imported Italian cheeses, cured meats, pasta, and olive oils. A 120+ year legacy of quality.",
+    "url": "/business/pennsylvania-macaroni/"
+  },
+  {
+    "name": "Phipps Conservatory",
+    "description": "Pittsburgh's legendary botanical garden in Schenley Park. Phipps has been a sanctuary of living art and environmental leadership since 1893.",
+    "url": "/business/phipps-conservatory/"
+  },
+  {
+    "name": "Pittsburgh Cultural Trust",
+    "description": "Pittsburgh Cultural Trust was founded in 1984 with backing from the Heinz Endowments. The Trust has created and curated a 14-block Cultural District in downtown Pittsburgh, managing iconic venues including the Benedum Center, Heinz Hall, Harris Theater, and SPACE. A major force in Pittsburgh's cultural and economic development.",
+    "url": "/business/pittsburgh-cultural-trust/"
+  },
+  {
+    "name": "Pittsburgh Glass Center",
+    "description": "The world's largest glass art education center, located in Garfield. Teaching 5,000+ students annually since 2001. A catalyst for Penn Avenue's creative revival.",
+    "url": "/business/pittsburgh-glass-center/"
+  },
+  {
+    "name": "Pittsburgh Improv",
+    "description": "Professional comedy club at the Waterfront in Homestead featuring nationally touring stand-up comedians, full bar, and regular weekend shows.",
+    "url": "/business/pittsburgh-improv/"
+  },
+  {
+    "name": "Pittsburgh Physical Medicine & Chiropractic",
+    "description": "Integrated practice combining physical therapy and chiropractic care with perfect 5.0 Google rating across 422+ reviews in East Liberty.",
+    "url": "/business/pittsburgh-physical-medicine/"
+  },
+  {
+    "name": "Pittsburgh Zoo & Aquarium",
+    "description": "One of America's only combined zoo and aquarium complexes, located in Highland Park since 1898. 77 acres, 8,000+ animals, and a Pittsburgh family tradition for 125+ years.",
+    "url": "/business/pittsburgh-zoo/"
+  },
+  {
+    "name": "PJ Dick Incorporated",
+    "description": "PJ Dick Incorporated is a major Pittsburgh general contractor founded in 1979. Part of the Massaro Corporation family, the company has built many of Pittsburgh's most iconic buildings and infrastructure projects, bringing visions to life across the region and beyond.",
+    "url": "/business/pj-dick/"
+  },
+  {
+    "name": "PNC Financial Services",
+    "description": "PNC Financial Services is one of America's largest banks, headquartered in Pittsburgh since 1845. With 60,000+ employees and deep Pittsburgh roots, PNC Park is named after the company.",
+    "url": "/business/pnc-financial-services/"
+  },
+  {
+    "name": "Poulet Bleu",
+    "description": "Classic French bistro in Lawrenceville from restaurateur Richard DeShantz. Steak frites, roast chicken, and a zinc bar that transports you straight to Paris.",
+    "url": "/business/poulet-bleu/"
+  },
+  {
+    "name": "PPG Industries",
+    "description": "Global paints, coatings, and specialty materials company headquartered in Pittsburgh since 1883. PPG's glass castle towers are among the most iconic buildings in the city.",
+    "url": "/business/ppg-industries/"
+  },
+  {
+    "name": "Primanti Brothers",
+    "description": "Primanti Brothers has been Pittsburgh's most iconic sandwich shop since 1933. Founded in the Strip District, serving the legendary coleslaw-and-fries-inside sandwich to generations of Pittsburghers.",
+    "url": "/business/primanti-brothers/"
+  },
+  {
+    "name": "Randyland",
+    "description": "Pittsburgh's most colorful landmark. Randyland is a free public art installation on the North Side created by artist Randy Gilson from salvaged materials and pure joy.",
+    "url": "/business/randyland/"
+  },
+  {
+    "name": "RoadRunner Recycling",
+    "description": "Pittsburgh waste management tech company using AI and data analytics to make commercial recycling smarter and more efficient. Reimagining how businesses handle waste.",
+    "url": "/business/roadrunner-recycling/"
+  },
+  {
+    "name": "Robert Morris University",
+    "description": "Career-focused university in Moon Township founded in 1921. 4,500+ students in business, engineering, nursing, and cybersecurity programs serving the Pittsburgh region.",
+    "url": "/business/robert-morris-university/"
+  },
+  {
+    "name": "S.W. Randall Toyes & Giftes",
+    "description": "Beloved Pittsburgh toy and gift institution on Smithfield Street, serving families with an extensive selection of toys, games, and gifts for over 45 years.",
+    "url": "/business/sw-randall-toyes/"
+  },
+  {
+    "name": "Schneider Downs",
+    "description": "One of the 60 largest accounting firms in the US and the fourth-largest in Western PA, offering tax, audit, advisory, and consulting services from PPG Place.",
+    "url": "/business/schneider-downs/"
+  },
+  {
+    "name": "Schoolhouse Yoga",
+    "description": "Top-rated yoga instruction and teacher training center in the Strip District, offering all levels from gentle yoga to Ashtanga, Kundalini, and meditation.",
+    "url": "/business/schoolhouse-yoga/"
+  },
+  {
+    "name": "SouthSide Works",
+    "description": "34-acre mixed-use development on the former LTV Steel site in South Side. Retail, dining, office, and residential space on the Monongahela riverfront since 2004.",
+    "url": "/business/south-side-works/"
+  },
+  {
+    "name": "Squirrel Hill Urban Coalition",
+    "description": "Community development nonprofit serving Squirrel Hill since 1968. Food security, neighborhood advocacy, and inclusive programming for Pittsburgh's most diverse neighborhood.",
+    "url": "/business/s-w-randall-toyes-squirrel-hill/"
+  },
+  {
+    "name": "Superior Motors",
+    "description": "Fine dining in Braddock from chef Kevin Sousa. Superior Motors is part restaurant, part community project, set in a former auto dealership in Pittsburgh's most storied steel town.",
+    "url": "/business/superior-motors/"
+  },
+  {
+    "name": "The Andy Warhol Museum",
+    "description": "The largest museum dedicated to a single artist in North America. Seven floors of Andy Warhol's art, archives, and legacy on Pittsburgh's North Shore.",
+    "url": "/business/andy-warhol-museum/"
+  },
+  {
+    "name": "The Block Barbershop",
+    "description": "Modern barbershop in Friendship offering precision cuts, beard grooming, and straight razor shaves. Founded 2018 by George Graziani.",
+    "url": "/business/babw-pittsburgh/"
+  },
+  {
+    "name": "The Buncher Company",
+    "description": "One of Pittsburgh's most influential real estate development firms. The Buncher Company has shaped the Strip District and riverfront for over seven decades.",
+    "url": "/business/the-buncher-company/"
+  },
+  {
+    "name": "The Church Brew Works",
+    "description": "The Church Brew Works is a historic brewpub housed in a converted Catholic church in Lawrenceville. Founded in 1996, the brewery kettles sit where the altar once stood, making it one of Pittsburgh's most unique dining experiences.",
+    "url": "/business/church-brew-works/"
+  },
+  {
+    "name": "The Pittsburgh Foundation",
+    "description": "The Pittsburgh Foundation is one of America's oldest community foundations, founded in 1945. With 1.4 billion in assets, it has granted over 850 million to advance equity, education, and community development.",
+    "url": "/business/pittsburgh-foundation/"
+  },
+  {
+    "name": "The Porch at Schenley",
+    "description": "Farm-to-table restaurant in Oakland overlooking Schenley Plaza, serving seasonal dishes from local Pennsylvania farms. A Pittsburgh gathering place since 2012.",
+    "url": "/business/the-porch-at-schenley/"
+  },
+  {
+    "name": "Trace Brewing",
+    "description": "Bloomfield brewery, bottle shop, and gathering space. Trace Brewing pairs creative craft beer with curated retail and community events in a beautifully renovated space.",
+    "url": "/business/trace-brewing/"
+  },
+  {
+    "name": "Trek Development Group",
+    "description": "Mixed-use and transit-oriented development firm based in Highland Park. Over $200M in Pittsburgh neighborhood projects since 2006.",
+    "url": "/business/trek-development/"
+  },
+  {
+    "name": "Umami",
+    "description": "Pan-Asian fusion in Lawrenceville from chef Kevin Sousa. Umami blends Japanese, Korean, and Southeast Asian flavors with Pittsburgh's farm-to-table ethos.",
+    "url": "/business/umami-pittsburgh/"
+  },
+  {
+    "name": "University of Pittsburgh",
+    "description": "University of Pittsburgh is one of America's oldest universities, founded in 1787. Located in Oakland with 34,000+ students. Home to the iconic Cathedral of Learning and world-class medical research programs.",
+    "url": "/business/university-of-pittsburgh/"
+  },
+  {
+    "name": "UPMC",
+    "description": "UPMC is Western Pennsylvania's largest employer and health system with 95,000+ employees and 40+ hospitals. World-class transplant, cancer, and neurosurgery programs drive medical innovation.",
+    "url": "/business/upmc-health-system/"
+  },
+  {
+    "name": "UPMC",
+    "description": "Pittsburgh's largest employer and one of the world's leading academic medical centers. UPMC operates 40+ hospitals and employs nearly 100,000 people across the region.",
+    "url": "/business/upmc/"
+  },
+  {
+    "name": "Urban League of Greater Pittsburgh",
+    "description": "Urban League of Greater Pittsburgh was founded in 1918. For over a century, it has advanced economic empowerment, education, and civil rights for Pittsburgh's Black community through workforce development and housing programs.",
+    "url": "/business/urban-league-pittsburgh/"
+  },
+  {
+    "name": "Walnut Capital",
+    "description": "Walnut Capital, founded in 2000 by Todd Reidbord, is a major real estate developer focused on Oakland and Shadyside. The company is known for The Bakery Living (Bakery Square), mixed-use developments that combine retail, residential, and office space, transforming neighborhoods while respecting Pittsburgh's architectural heritage.",
+    "url": "/business/walnut-capital/"
+  },
+  {
+    "name": "White Whale Bookstore",
+    "description": "Award-winning independent general interest bookstore with integrated coffee shop in the heart of Bloomfield, known for exceptional curation and community events.",
+    "url": "/business/white-whale-bookstore/"
+  },
+  {
+    "name": "Whitehouse Salon",
+    "description": "Award-winning Shadyside hair salon on Walnut Street specializing in cuts, color, balayage, highlights, extensions, and styling. Featured in Pittsburgh Magazine.",
+    "url": "/business/whitehouse-salon/"
+  },
+  {
+    "name": "Wigle Whiskey",
+    "description": "Pittsburgh's first post-Prohibition craft distillery in the Strip District. 100+ awards for whiskey, gin, and rum. Founded 2012 by the Grelli family.",
+    "url": "/business/wigle-whiskey/"
+  },
+  {
+    "name": "Wildcard",
+    "description": "Eclectic Lawrenceville gift shop offering cards, stationery, jewelry, local art, vintage finds, craft supplies, and pinball -- a true neighborhood original.",
+    "url": "/business/wildcard-lawrenceville/"
+  }
+]
